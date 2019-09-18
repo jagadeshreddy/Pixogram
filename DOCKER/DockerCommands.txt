@@ -1,0 +1,3 @@
+dockerx build -f Dockerfile -t jagadesh_pixogram
+dockerx run -p 8080:6763 jagadesh_pixogram
+dockerx_images

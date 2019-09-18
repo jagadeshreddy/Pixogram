@@ -9,12 +9,13 @@
                 <hr>
                 <form role="form">
                     <div class="form-group">
-                       <label >id     :        </label>
-                       <input  [(ngModel)]="userl.username" name="username">
+                       <label >id:        </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <input  [(ngModel)]="userl.username" type="text" name="username">
                      </div>
+                     <br>
                      <div class="form-group">
                        <label >password: </label>
-                       <input  [(ngModel)]="userl.password" name="password"> 
+                       <input  [(ngModel)]="userl.password" type="password" name="password"> 
                      </div>
                      <div class="text-center">
                         <button class="btn btn-success" (click)="createUser()">login</button>
